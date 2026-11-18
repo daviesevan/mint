@@ -1,0 +1,11 @@
+{
+  "name": "mint",
+  "private": true,
+  "scripts": {
+    "dev:web": "npm --prefix apps/web run dev",
+    "dev:api": "uv run --directory apps/api uvicorn main:app --reload",
+    "build:web": "npm --prefix apps/web run build",
+    "lint:web": "npm --prefix apps/web run lint",
+    "test:api": "uv run --directory apps/api python -m pytest"
+  }
+}
