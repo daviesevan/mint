@@ -5,7 +5,7 @@ microfinance institutions in Kenya. The monorepo contains a Next.js frontend
 and a FastAPI backend.
 
 The project is at the starter stage and is not ready for production or handling
-financial transactions. The repository does not yet include a license.
+financial transactions.
 
 ## Requirements
 
@@ -62,3 +62,12 @@ welcome. Share an issue or pull request, or connect with the project creator:
 - [GitHub](https://github.com/daviesevan)
 - [X](https://x.com/daviesevan_)
 - [Instagram](https://www.instagram.com/thelifewelivin/)
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for pull request guidance and
+[SECURITY.md](SECURITY.md) for private vulnerability reporting.
+
+## License
+
+mint is licensed under [AGPL-3.0-only](LICENSE). The copied UIArc components in
+`apps/web/components/arc` are also subject to their
+[MIT license and copyright notice](apps/web/components/arc/LICENSE).
